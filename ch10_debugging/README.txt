@@ -35,3 +35,14 @@ Assertion checking can be stopped by using -O option in command line
  - Python’s assert statement is a debugging aid that tests a condition as an internal self-check in your program.
  - Asserts should only be used to help developers identify bugs. They’re not a mechanism for handling run-time errors.
  - Asserts can be globally disabled with an interpreter setting
+
+
+
+
+ - Most source control systems are line-based and have a hard time highlighting multiple changes to a single line.
+   So for best practice multi-line declaration of list and dict variables
+   list1= [
+	   a,
+	   b,
+	   c
+          ]
